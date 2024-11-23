@@ -1,4 +1,3 @@
 Thank You !!
-I am so grateful for the opportunity to share my story with you. I hope that it has inspired
-you to take action and make a difference in the world. Remember, every small action
-counts, and together we can create a brighter future for all.
+This website serves as an online résumé and displays my web presence, story, work experience, education, projects, achievements, and contact information. It was created using Bootstrap, and CSS.
+
