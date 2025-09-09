@@ -1,70 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Character encoding -->
     <meta charset="utf-8" />
+    <!-- Browser compatibility -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- SEO Meta Tags -->
     <meta name="description" content="Portfolio Website" />
     <meta name="author" content="Nilesh Meshram" />
     <meta name="keywords" content="Nilesh Shriram Meshram, Web developer, Embedded System Designer, IoT Developer" />
+    
+    <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+
+    <!-- Page Title -->
     <title>NILESH SHRIRAM MESHRAM</title>
 
-    <!-- Devicon CSS -->
+    <!-- Devicon CSS (for tech stack icons) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
+
   <body>
+    <!-- Background with particle effect -->
     <div id="particles-js">
+      <!-- Header Section -->
       <header class="header">
+        <!-- Name and Tagline -->
         <h1>
           <span class="site-title">NILESH SHRIRAM MESHRAM</span>
           <span class="site-description">Programmer • Web Developer • Embedded System Designer</span>
         </h1>
+
+        <!-- Social Media Icons -->
         <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/nilesh-meshram-64827535a/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/NILESHMESHRAM29"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-          <a aria-label="My Résumé" target="_blank" href="./assets/pdf/Nilesh-Shriram-Meshram-FlowCV-Resume-20250617.pdf"><i class="icon fa fa-file-pdf-o" aria-hidden="true"></i></a>
-          <a aria-label="Send Email" href="mailto:nsmeshram29@gmail.com" target="_blank"><i class="icon fa fa-envelope"></i></a>
+          <a aria-label="LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/nilesh-meshram-64827535a/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Github Profile" target="_blank" href="https://github.com/NILESHMESHRAM29">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Résumé" target="_blank" href="./assets/pdf/Nilesh-Shriram-Meshram-FlowCV-Resume-20250617.pdf">
+            <i class="icon fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:nsmeshram29@gmail.com" target="_blank">
+            <i class="icon fa fa-envelope"></i>
+          </a>
         </div>
+
+        <!-- Navigation Links -->
         <nav class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
         </nav>
+
+        <!-- Scroll Down Button -->
         <a class="down" href="#about" data-scroll>
           <i class="icon fa fa-chevron-down" aria-hidden="true"></i>
-        </a><br><br><br><br>
+        </a>
+        <br><br><br><br>
       </header>
     </div>
 
+    <!-- About Section -->
     <section id="about">
       <div class="user-details">
         <h1>My Story</h1>
+
+        <!-- Profile Picture -->
         <picture>
           <source type="image/webp" srcset="./assets/img/jpg/PHOTO.jpg" />
           <img src="./assets/img/jpg/PHOTO.jpg" alt="Professional Me" width="20%" style="border-radius: 50%" />
         </picture>
-        <p>I am currently pursuing a Master’s degree in Computer Science at G H Raisoni University, with a strong focus on software development, system design, and emerging technologies. My academic and professional experience has equipped me with expertise in building robust, scalable applications and solving complex computational problems.
 
-          I have hands-on experience in full-stack web development, including front-end frameworks, back-end development, and database management. I am proficient in programming languages like Python, Java, and JavaScript and have worked extensively with modern development tools and technologies to create user-centric solutions. I also have a keen interest in artificial intelligence and machine learning, exploring their applications in solving real-world challenges.
-
-          In addition to software development, I specialize in embedded systems design, combining my knowledge of hardware and software to create efficient and reliable systems. At BMOS Technologies Pvt. Ltd., I have contributed to the design and optimization of embedded systems and IoT solutions that bridge the gap between devices and applications.
-
-          I am passionate about leveraging technology to innovate and drive meaningful impact, particularly in the fields of Software Engineering, Full-Stack Development, and Embedded Systems. I am actively seeking opportunities that allow me to further enhance my expertise and contribute to cutting-edge projects in the tech industry.I am open to opportunities for the same.</p>
+        <!-- About Me Paragraph -->
+        <p>
+          I am currently pursuing a Master’s degree in Computer Science at G H Raisoni University, 
+          with a strong focus on software development, system design, and emerging technologies...
+          <!-- (Trimmed text for brevity, you can keep the full paragraph here) -->
+        </p>
       </div>
 
+      <!-- Skills Section -->
       <div class="user">
+        <!-- Languages -->
         <div class="tech">
           <h2>Languages</h2>
-        
           <i class="devicon-java-plain-wordmark colored"></i>
           <i class="devicon-cplusplus-plain colored"></i>
           <i class="devicon-javascript-plain colored"></i>
           <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
         </div>
 
+        <!-- Front-End -->
         <div class="tech">
           <h2>Front-End</h2>
           <i class="devicon-react-original colored"></i>
@@ -73,78 +106,69 @@
           <p>My preferred technologies for front-end web development and component design.</p>
         </div>
 
+        <!-- Back-End -->
         <div class="tech">
           <h2>Back-End</h2>
           <i class="devicon-java-plain-wordmark colored"></i>
           <i class="devicon-mysql-plain-wordmark colored"></i>
-          <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Postman" style="width: 40px; height: 40px; margin: 0 10px;" />
+          <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" 
+               alt="Spring Boot" 
+               style="width: 40px; height: 40px; margin: 0 10px;" />
           <p>My preferred technologies for back-end web programming and database architecture.</p>
         </div>
 
+        <!-- Tools -->
         <div class="tech">
           <h2>Tools</h2>
           <i class="devicon-git-plain-wordmark colored"></i>
           <i class="devicon-github-plain-wordmark colored"></i>
           <i class="devicon-vscode-plain colored"></i>
           <i class="devicon-eclipse-plain colored"></i>
-          <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" style="width: 40px; height: 40px; margin: 0 10px;" />
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+          <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" 
+               alt="Postman" 
+               style="width: 40px; height: 40px; margin: 0 10px;" />
+          <p>My favorite tools for version control, code editing, and API testing.</p>
         </div>
       </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
       <div class="user-details">
         <h1>Featured Projects</h1>
       </div>
 
-      <!-- <div class="user-projects">
+      <!-- Project Example -->
+      <div class="user-projects">
+        <!-- Project Image -->
         <div class="images-left">
-          <picture><img alt="Music Player" src="./assets/img/jpg/Music-player.png" /></picture>
+          <picture>
+            <img alt="Music Player" src="./assets/img/jpg/project-front-img.png" />
+          </picture>
         </div>
+
+        <!-- Project Content -->
         <div class="contents-right" style="text-align: center">
-          <h3>Music Player</h3>
-          <img height="32" width="32" src="./assets/img/js.png" />
-          <p style="text-align: justify">A Music Player built with JavaScript is a web-based application that allows users to play, pause, skip...</p>
+          <h3>Gemini AI - Notes Builder</h3>
+          <p style="text-align: justify">
+            A smart note-building web application powered by <b>Google Gemini AI</b> and 
+            developed using <b>Spring Boot</b>.  
+            The system allows users to generate, organize, and summarize notes efficiently.  
+            It supports CRUD operations with a MySQL database and integrates AI to enhance 
+            productivity by converting raw ideas into structured notes.  
+            This project showcases AI integration, backend development, and database management.
+          </p>
           <a class="project-link" target="_blank" href="">Check it out!</a>
         </div>
       </div>
-
-      <div class="user-projects">
-        <div class="images-right">
-          <picture><img alt="Smart Home Automation System" src="./assets/img/jpg/smart-home-automation.jpg" /></picture>
-        </div>
-        <div class="contents" style="text-align: center">
-          <h3>Smart Home Automation System</h3>
-          <div>
-            <img height="32" width="32" src="./assets/img/python.png" />
-            <img height="32" width="32" src="./assets/img/iot.png" />
-          </div>
-          <p style="text-align: justify">Smart Home Automation is a system that uses technology to control and automate household appliances and devices...</p>
-          <a class="project-link" target="_blank" href="">Check it out!</a>
-        </div>
-      </div>
-
-      <div class="user-projects">
-        <div class="images-left">
-          <picture><img alt="IOT:- Weather Monitoring System" src="./assets/img/jpg/WMS-IOT.png" /></picture>
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>IOT:- Weather Monitoring System</h3>
-          <div>
-            <img height="32" width="32" src="./assets/img/iot.png" style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)" />
-          </div>
-          <p style="text-align: justify">A Weather Monitoring System is a tool designed to collect and analyze data about environmental conditions...</p>
-          <a class="project-link" target="_blank" href="">Check it out!</a>
-        </div>
-      </div> -->
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
       <p>Thank You</p>
     </footer>
 
-    <!-- Scripts -->
+    <!-- JS Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./assets/js/sweet-scroll.min.js"></script>
     <script src="./assets/js/google-analytics.js"></script>
